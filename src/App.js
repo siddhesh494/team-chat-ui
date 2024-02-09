@@ -1,25 +1,28 @@
 import './App.css';
+import GroupDetails from './Components/GroupDetails/GroupDetails';
+import Home from './Components/Home/Home';
+import Sidebar from './Components/Sidebar';
 
 function App() {
   return (
-    <div className="">
+    <div className="main">
       
       <div className='flex'>
         
-        <div className='border boder-black p-4 w-[6%]'>
-          heyyy
+        <div className='  w-[6%]'>
+          <Sidebar />
         </div>
 
-        <div className='border boder-black p-4 w-[28%]'>
-          heyyy
+        <div className=' bg-[#F7F5F4] w-[28%]'>
+          <Home />
         </div>
 
         <div className='border boder-black p-4 w-[38%]'>
           heyyy
         </div>
 
-        <div className='border boder-black p-4 w-[28%]'>
-          heyyy
+        <div className='border boder-black w-[28%]'>
+          <GroupDetails />
         </div>
         
       </div>
