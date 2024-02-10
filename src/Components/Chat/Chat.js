@@ -173,7 +173,7 @@ const Chat = () => {
         </div>
       </div>
       
-      <div className='flex mx-20 py-5'>
+      <div className='flex mx-20 py-4'>
         
         <div className='flex flex-row justify-between items-center'>
           <div className='flex flex-row items-center w-72'>

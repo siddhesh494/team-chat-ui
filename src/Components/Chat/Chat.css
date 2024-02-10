@@ -27,7 +27,7 @@ color: #A19791;
 
 .chat-scroll {
   height: 110px;
-  min-height: 75vh;
+  min-height: 73vh;
   position: relative;
   overflow-y: scroll;
 }
