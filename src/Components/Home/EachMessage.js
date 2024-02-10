@@ -1,5 +1,4 @@
 import React from 'react'
-import MyImage from '../../icons/Image/myImage.jpg'
 import TypingIcon from '../../icons/PNG/typing.png'
 import sendPictureIcon from '../../icons/PNG/sendPicture.png'
 import attachmentIcon from '../../icons/PNG/attachment.png'
