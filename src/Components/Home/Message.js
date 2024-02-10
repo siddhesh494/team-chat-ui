@@ -4,6 +4,15 @@ import FavIcon from '../../icons/PNG/fav.png'
 import SearchIcon from '../../icons/PNG/search.png'
 import MyImage from '../../icons/Image/myImage.jpg'
 import EachMessage from './EachMessage'
+import GroupImage from '../../icons/Image/grp.jpg'
+import f1 from '../../icons/Image/f1.jpg'
+import f2 from '../../icons/Image/f2.jpg'
+import f3 from '../../icons/Image/f3.jpg'
+import f4 from '../../icons/Image/f4.jpg'
+import f9 from '../../icons/Image/f9.jpg'
+import f6 from '../../icons/Image/f6.jpg'
+import f7 from '../../icons/Image/f7.jpg'
+import f8 from '../../icons/Image/f8.jpg'
 
 
 
@@ -53,7 +62,7 @@ const Message = () => {
           online={true}
           messageSeen={false}
           numberOfMessage={2}
-          profileImage={MyImage}
+          profileImage={f7}
           name={"Marina Jolly"}
           recievedText={"Marina is typing..."}
           recievedMsgType={'typing'}
@@ -65,7 +74,7 @@ const Message = () => {
           online={true}
           messageSeen={true}
           numberOfMessage={"2"}
-          profileImage={MyImage}
+          profileImage={GroupImage}
           name={"College group"}
           recievedText={"Marina is typing..."}
           recievedMsgType={"You: "}
@@ -76,7 +85,7 @@ const Message = () => {
           online={true}
           messageSeen={true}
           numberOfMessage={2}
-          profileImage={MyImage}
+          profileImage={f1}
           name={"Jackson Roy"}
           recievedText={"Sent a picture"}
           recievedMsgType={'picture'}
@@ -87,7 +96,7 @@ const Message = () => {
           online={true}
           messageSeen={false}
           numberOfMessage={3}
-          profileImage={MyImage}
+          profileImage={f2}
           name={"Hafsa shaikh"}
           recievedText={"Meet me before presentation....."}
           recievedMsgType={null}
@@ -98,7 +107,7 @@ const Message = () => {
           online={false}
           messageSeen={true}
           numberOfMessage={2}
-          profileImage={MyImage}
+          profileImage={f3}
           name={"Alix joseph"}
           recievedText={"How did you prepared......"}
           recievedMsgType={null}
@@ -111,10 +120,21 @@ const Message = () => {
           online={false}
           messageSeen={true}
           numberOfMessage={2}
-          profileImage={MyImage}
+          profileImage={f8}
           name={"Rockstar Benj"}
           recievedText={"Sent an attachment"}
           recievedMsgType={'attachment'}
+        />
+
+        {/* each message */}
+        <EachMessage 
+          online={false}
+          messageSeen={true}
+          numberOfMessage={2}
+          profileImage={f9}
+          name={"Max Hob"}
+          recievedText={"Next presentation will be......"}
+          recievedMsgType={null}
         />
 
 

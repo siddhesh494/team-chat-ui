@@ -62,7 +62,7 @@ const Sidebar = () => {
 
       </div>
 
-      <div className='mt-48'>
+      <div className='absolute mb-3 bottom-1'>
         <img 
           src={LogoutIcon}
           alt={'LogoutIcon'}

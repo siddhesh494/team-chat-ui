@@ -1,5 +1,10 @@
 import React from 'react'
 import MyImage from '../../icons/Image/myImage.jpg'
+import f4 from '../../icons/Image/f4.jpg'
+import f5 from '../../icons/Image/f5.jpg'
+import f6 from '../../icons/Image/f6.jpg'
+import f1 from '../../icons/Image/f1.jpg'
+
 import Message from './Message'
 import './Home.css'
 
@@ -36,38 +41,44 @@ const Home = () => {
         <div className='flex gap-4'>
           <div>
             <img
-              src={MyImage}
+              src={f4}
               alt={"myImage"}
               className='rounded-full'
             />
+            <div className='w-3 h-3 bg-green-500 float-end rounded-full border border-white relative bottom-4'></div>
           </div>
           <div>
             <img
-              src={MyImage}
+              src={f5}
               alt={"myImage"}
               className='rounded-full'
             />
+            <div className='w-3 h-3 bg-green-500 float-end rounded-full border border-white relative bottom-4'></div>
           </div>
           <div>
             <img
-              src={MyImage}
+              src={f6}
               alt={"myImage"}
               className='rounded-full'
             />
+            <div className='w-3 h-3 bg-green-500 float-end rounded-full border border-white relative bottom-4'></div>
           </div>
           <div>
             <img
-              src={MyImage}
+              src={f1}
               alt={"myImage"}
               className='rounded-full'
             />
+            <div className='w-3 h-3 bg-green-500 float-end rounded-full border border-white relative bottom-4'></div>
           </div>
-          <div className='bg-[#FBE5D9] p-4 rounded-full'>
-            <span style={{
-              color: '#FF731D'
-            }}>
-              18+
-            </span>
+          <div>
+            <div className='bg-[#FBE5D9] p-4 rounded-full'>
+              <span style={{
+                color: '#FF731D'
+              }}>
+                18+
+              </span>
+            </div>
           </div>
           
         </div>
