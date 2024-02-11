@@ -60,6 +60,7 @@ const Chat = () => {
               src={f8}
               alt={"f8"}
             />
+            <div className='w-3 h-3 bg-green-500 float-end rounded-full border border-white relative bottom-4'></div>
           </div>
 
           <div className='flex flex-col ml-5'>
